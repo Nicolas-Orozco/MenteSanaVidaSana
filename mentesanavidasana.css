@@ -1,0 +1,97 @@
+* {
+    font-family: Pangolin;
+    align-items: center;
+}
+body {
+    background-image: url(pixel-heart.png);
+    width: 100%;
+}
+.logo{
+    position: relative;
+    top: 60px;
+    left: 2%;
+    border:  black dashed;
+}
+th, td {
+    padding: 15px;
+  }
+.wrappper {
+    width: 90%;
+    margin: auto;
+}  
+.cuadradolista5 {
+    width: 580px;
+    height: 800px ;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    background: #f5ad72;
+    border: black dashed;
+    overflow: hidden;
+    margin: 30px 30px;
+}
+.cuadradolista5 p:hover {
+    color: #3D52D5;
+}
+.cuadradolista5 p {
+    position: relative;
+    bottom: 40px;
+}
+.cuadradolista6 {
+    width: 630px;
+    height: 480px ;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    background: #ffffff;
+    border: black dashed;
+    overflow: hidden;
+    margin: 30px 30px;
+}
+.cuadradolista6 p:hover {
+    color: #141B41;
+}
+.cuadradolista6 p {
+    position: relative;
+    bottom: 40px;
+}
+.cuadradolista7 {
+    width: 700px;
+    height: 535px ;
+    position: absolute;
+    top: 25px;
+    left: 1700px;
+    background: #ffffff;
+    border: black dashed;
+    overflow: hidden;
+    margin: 30px 30px;
+}
+.menu {
+    list-style: none;
+    background: #092327;
+    width: 98%;
+    margin: 18px auto;
+    position: absolute;
+    top: -18px;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354
+}
+.menu {
+    position: fixed;
+}
+body {
+    align-items: center;
+}

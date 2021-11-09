@@ -1,0 +1,99 @@
+* {
+    font-family: Lobster;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    bottom:20px;
+    top: 10px;
+    font-size: 500%;
+}
+body {
+    background-image: url(geometric-leaves.png);
+}
+.menu {
+    list-style: none;
+    background: #092327;
+    width: 98%;
+    margin: 18px auto;
+    position: absolute;
+    top: -18px;
+    text-align: center;
+    z-index: 3;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354
+}
+.menu {
+    position: fixed;
+}
+.cuadradolista2 {
+    min-width: 670px;
+    max-width: 685px;
+    height: 900px ;
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    z-index: 1;
+    background-color: #fed9d1;
+    border-radius: 35px 35px 35px 35px ;
+    border: black dashed;
+    overflow: hidden;
+    margin: 30px 30px;
+}
+.cuadradolista2 img {
+    position: relative;
+    top:15px;
+    left: 30px;
+}
+.cuadradolista3 {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 900px;
+    top: 190px;
+    background-color: #3D5A6C;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 20px 20px 20px 20px ;
+    border: black dashed;
+}
+.cuadradolista3 video {
+    position: relative;
+    left: 30px;
+}
+.cuadradolista4 {
+    width: 600px;
+    height: 900px;
+    position: absolute;
+    left: 1725px;
+    top:  160px;
+    background: #8fe4dd;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 20px 20px 20px 20px ;
+    border: black dashed;
+    margin: 30px 30px;
+}
+.cuadradolista4 img {
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+    padding: 30px;
+}

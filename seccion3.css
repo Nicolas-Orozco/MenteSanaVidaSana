@@ -1,0 +1,87 @@
+* {
+    font-family: Oswald;
+    align-items: center;
+}
+body {
+    background-image: url(bush.png);
+}
+.menu {
+    list-style: none;
+    background: #092327;
+    width: 98%;
+    margin: 18px auto;
+    position: absolute;
+    top: -18px;
+    text-align: center;
+    z-index: 3;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354
+}
+.menu {
+    position: fixed;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    bottom:20px;
+    top: 10px;
+    font-size: 500%;
+}
+.cajaemociones1 {
+    min-width: 620px;
+    max-width: 630px;
+    height: 1100px ;
+    position: absolute;
+    top: 160px;
+    left: 850px;
+    background: #a8a8a8;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 30px 30px 30px 30px ;
+    border-radius: 35px 35px 35px 35px ;
+    border: black dashed;
+    overflow: hidden;
+    margin: 30px 30px;
+}
+.cajaemociones2 {
+    min-width: 450px;
+    max-width: 460px;
+    height: 456px ;
+    position: absolute;
+    left: 1600px;
+    top: 160px;
+    z-index: 1;
+    background-color: #fed9d1;
+    border-radius: 35px 35px 35px 35px ;
+    border: black dashed;
+    overflow: hidden;
+    margin: 30px 30px;
+}
+.cajaemociones3 {
+    min-width: 670px;
+    max-width: 685px;
+    height: 900px ;
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    z-index: 1;
+    background-color: #6dbdbe;
+    border-radius: 35px 35px 35px 35px ;
+    border: black dashed;
+    overflow: hidden;
+    margin: 30px 30px;
+}

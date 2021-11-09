@@ -1,0 +1,49 @@
+* {
+    font-family: Bangers;
+    align-items: center;
+}
+body {
+    background-image: url(double-bubble-dark.png);
+}
+.galeria {
+    width: 100%;
+    position: absolute;
+    top: 70px;
+}
+.galeria img {
+    vertical-align: top;
+    width: 21%;
+    margin:17px ;
+    border:5px solid #000000;
+    opacity: 0.5;
+}
+.galeria img:hover {
+   border: 5px solid #fff;
+   opacity: 1;
+}
+.menu {
+    list-style: none;
+    background: #092327;
+    width: 98%;
+    margin: 18px auto;
+    position: absolute;
+    top: -18px;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354
+}
+.menu {
+    position: fixed;
+}

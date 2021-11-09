@@ -1,0 +1,61 @@
+* {
+    font-family: Pangolin;
+    align-items: center;
+}
+body {
+    background-image: url(pixel-heart.png);
+    width: 100%;
+}
+.linkscaja {
+    width:50%;
+    height:63%;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    background: #F1DABF;
+    overflow: scroll;
+    margin: 15px;
+    border: black dashed;
+    color: #362417;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    padding: 17px;
+}
+table, th, td {
+    border: 4px solid black;
+    border-collapse: collapse;
+  }
+.linkscaja a{
+    text-decoration: none;
+    color: #F4743B;
+}
+.linkscaja a:hover {
+    color: #A22522;
+}
+.menu {
+    list-style: none;
+    background: #092327;
+    width: 98%;
+    margin: 18px auto;
+    position: absolute;
+    top: -18px;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354
+}
+.menu {
+    position: fixed;
+}

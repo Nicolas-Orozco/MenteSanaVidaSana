@@ -3,7 +3,7 @@ First website I made between July 8 and 10, 2020, resources here (Images, Videos
 ## Website Link:
 https://mentesanavidasana.netlify.app/
 ## Images:
-!(image)[https://i.imgur.com/dt92Jdh.png]
+![Imgur Image](https://i.imgur.com/dt92Jdh.png)
 !(image)[https://i.imgur.com/7exYZUi.png]
 ## I Was Able To Learn:
 
